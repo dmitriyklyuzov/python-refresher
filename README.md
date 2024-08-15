@@ -26,3 +26,16 @@ def validate_and_execute(days):
         print("Your input ins not a valid number.")
 ```
 
+### Conversions
+
+```bash
+# Comma-separated values in a string to a list
+
+input_string = "10, 15, 25, 8"
+output_list = input_string.split(", ")
+
+# List to a delimieter-separated string
+input_list = ["John", "Jane", "Mark"]
+output_string = ", ".join(input_list) # you specify the delimeter first and call the `join` function on it
+
+```
