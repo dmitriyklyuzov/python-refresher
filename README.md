@@ -49,7 +49,7 @@ numbers.pop() # pop the last element off
 numbers.pop(0) # pop the first element
 
 # set
-names = ("Jane", "John")
+names = {"Jane", "John"}
 names.add("Peter")
 names.remove("John")
 ```
