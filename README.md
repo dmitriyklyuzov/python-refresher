@@ -38,3 +38,18 @@ input_list = ["John", "Jane", "Mark"]
 output_string = ", ".join(input_list) # you specify the delimeter first and call the `join` function on it
 
 ```
+
+### Managing elements
+
+```python
+# list
+numbers = [1,2,3]
+numbers.append(4) # add an element
+numbers.pop() # pop the last element off
+numbers.pop(0) # pop the first element
+
+# set
+names = ("Jane", "John")
+names.add("Peter")
+names.remove("John")
+```
