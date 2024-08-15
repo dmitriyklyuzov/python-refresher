@@ -28,9 +28,8 @@ def validate_and_execute(days):
 
 ### Conversions
 
-```bash
+```python
 # Comma-separated values in a string to a list
-
 input_string = "10, 15, 25, 8"
 output_list = input_string.split(", ")
 
