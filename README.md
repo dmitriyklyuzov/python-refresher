@@ -8,13 +8,13 @@
 
 ### Accepting user input
 
-```bash
+```python
 name = input("Please enter your age: ")
 ```
 
 ### Error handling with `try/except`
 
-```bash
+```python
 def validate_and_execute(days):
     try:
         user_input = int(days)
