@@ -53,3 +53,25 @@ names = {"Jane", "John"}
 names.add("Peter")
 names.remove("John")
 ```
+
+### Importing modules
+
+```python
+hours = 48
+
+# import the entire module
+import helper
+days = helper.convert(hours)
+
+# import just the convert function
+from helper import convert
+days = convert(hours)
+
+# import all functions/attributes
+from helper import *
+days = convert(hours)
+
+# import a module with an alias
+import helper as h
+days = h.convert(hours)
+```
