@@ -54,6 +54,13 @@ names.add("Peter")
 names.remove("John")
 ```
 
+### Modules, Packages, and Libraries
+
+* Module - single .py file
+* Package - collection of modules, contains init.py
+* Library - collection of packages
+
+
 ### Importing modules
 
 ```python
